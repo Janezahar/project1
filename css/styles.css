@@ -1,0 +1,47 @@
+body, p, figure {margin: 0;}
+ul, ol, dl {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+body {
+    background: #e4e4e6 url(../img/bg.jpg);
+}
+.navigation {
+    font-size: 30px;
+    line-height: 32px;
+    background: #5b9998;
+}
+.navigation ul {
+    font-size: 0;
+    line-height: 0;
+    letter-spacing: -.3em;
+}
+.navigation ul li {
+    background: #8affb7;
+    padding: 20px;
+    font-size: 30px;
+    line-height: 32px;
+    letter-spacing: normal;
+    display: inline-block;
+}
+.navigation ul li + li {
+    margin: 0 0 0 10px;
+}
+.wrapper {
+    width: 1000px;
+    margin: 0 auto;
+}
+
+.container:after {
+    content: '';
+    display: table;
+    width: 100%;
+    clear: both;
+}
+.box {
+    width: 200px;
+    height: 200px;
+    background: #0fc;
+    float: left;
+}
